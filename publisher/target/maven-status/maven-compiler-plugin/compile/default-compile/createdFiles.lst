@@ -1,0 +1,3 @@
+com/kafka/poc/publisher/SolaceProducer.class
+com/kafka/poc/publisher/PublisherApplication.class
+com/kafka/poc/publisher/PublisherApplication$MessageController.class
