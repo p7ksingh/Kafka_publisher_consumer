@@ -1,4 +1,4 @@
 FROM openjdk:17
-ADD target/kafka-publisher.jar kafka-publisher.jar
-EXPOSE 8083
-ENTRYPOINT ["java", "-jar", "kafka-publisher.jar"]
+ADD target/kafka-consumer.jar kafka-consumer.jar
+EXPOSE 8084
+ENTRYPOINT ["java", "-jar", "kafka-consumer.jar"]
